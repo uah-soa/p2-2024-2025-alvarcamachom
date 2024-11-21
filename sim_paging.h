@@ -53,7 +53,7 @@ typedef struct
     // Frames table (maintained by the OS only)
     int numframes;
     sframe * frt;
-    int listfree;
+    int listfree;       // Stores the number of the last frame on the list
     int listoccupied;      // Only for FIFO and FIFO 2nd ch.
 
     // Trace data
